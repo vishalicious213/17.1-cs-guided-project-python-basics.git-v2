@@ -18,3 +18,5 @@ def sort_by_length(lst):
 
 sort_by_length(["a", "ccc", "dddd", "bb"])
 sort_by_length(["apple", "pie", "shortcake"])
+
+# lambda function is like a JS anonymous/arrow function
