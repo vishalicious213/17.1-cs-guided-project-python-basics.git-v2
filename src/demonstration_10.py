@@ -15,4 +15,20 @@ Notes:
 """
 def get_discounts(nums, percentage):
     # Your code here
+    discount_percent = int(percentage[ : -1]) / 100
+    new_nums = []
 
+    for num in nums:
+        # apply the discount
+        new_nums.append( num * discount_percent )
+    return new_nums
+
+# alternately:
+
+# percent = int(percentage[:-1]) / 100
+#     for i in range(len(nums)):
+#         nums[i] = nums[i] * percent 
+#     print(nums)
+#     return nums
+
+# pass by reference vs pass by copy
