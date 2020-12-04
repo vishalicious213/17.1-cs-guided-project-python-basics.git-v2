@@ -14,4 +14,12 @@ Notes:
 """
 def mapping(letters):
     # Your code here
+    letter_dict = {}
 
+    for letter in letters:
+        # add a new key/value to the dictionary
+        # the key is hte letter
+        # the value is the capitalized version of the letter
+        letter_dict[letter] = letter.upper()
+
+    return letter_dict

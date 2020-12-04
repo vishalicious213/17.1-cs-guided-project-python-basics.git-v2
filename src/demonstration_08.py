@@ -23,3 +23,5 @@ num_args("foo", "bar", arg2='this is a keyword arg')
 # named/keyword-only arguments look like props. They're key/value pairs.
 # adding an asterisk in the parenthesis for a function lets it take unlimited arguments
 # kwargs = keyword arguments
+
+# "*args passes variable number of non-keyworded arguments, **kwargs passes variable number of keyword arguments"
